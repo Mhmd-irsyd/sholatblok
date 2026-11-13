@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Android build, cache & local paths
+**/android/.gradle/
+**/android/.kotlin/
+**/android/local.properties
+**/android/captures/
+**/android/.cxx/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Keystores & Signing Secrets (CRITICAL)
+*.keystore
+*.jks
+key.properties
+*.key
+*.p12
+*.pem
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+*.apk
+*.aab
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
